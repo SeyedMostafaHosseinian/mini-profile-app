@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "iranYekanR";
+
+}
+@font-face {
+    font-family: iranYekanR;
+    src: url("./fonts/iranyekanwebregular.ttf") format('ttf');
+  }

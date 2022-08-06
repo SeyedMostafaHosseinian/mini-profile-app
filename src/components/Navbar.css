@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "iranYekanR";
+    src: url("../fonts/iranyekanwebregular.ttf") format('truetype');
+  }
+
+.navbar {
+    width: 200px;
+    height: 605px;
+    background: #4834D4;
+    position: fixed;
+    right: 0;
+    top: 10px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.adminBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adminBox img {
+    width: 80px;
+    height: 80px;
+    border-radius:100px ;
+    /* border: 2px solid #fff; */
+}
+.adminBox  h2{ 
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    margin-top: 8px;
+    background: #4835c5;
+    padding: 4px 10px;
+    border-radius: 50px;
+    font-family: "iranYekanR";
+    font-weight: normal;
+
+}
+.navbarMenu {
+    margin-top: 15px;
+    width: 93%;
+    margin-left: -20px;
+}
+.navbarMenu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.navbarMenu ul .liTab {
+    background: #fefefe14;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3px;
+    padding: 0 8px;
+    align-items: center;
+    height: 32px;
+    border-radius: 0 10px 10px 0;
+    transition: all 0.3s ease-in-out;
+}
+.navbarMenu ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    width: 100%;
+    justify-content: flex-end;
+    transition: all 0.3s ease-in-out;
+}
+.navbarMenu ul li a span {
+    margin-right: 5px;
+}
+.activeTab {
+    background: #fff !important;
+    padding-right: 20px !important;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3px;
+    padding: 0 8px;
+    align-items: center;
+    height: 32px;
+    border-radius: 0 10px 10px 0;
+    transition: all 0.3s ease-in-out;
+}
+.activeTab a {
+    color: #535C68 !important;
+}
+.navbarMenu ul li a svg { 
+    width: 14.5px;
+} 
+.activeTab a svg path { 
+    fill:#535C68 ;
+}
