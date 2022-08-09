@@ -32,8 +32,6 @@ const Resumeh = () => {
                 <a href='#' target="_blank">hossenianm21@gmail.com</a>
                 <span>Skype: .... .... :</span>
               </div>
-
-
             </div>
             <div className={styles.row2}>
               <h2>Objective</h2>
@@ -42,19 +40,27 @@ const Resumeh = () => {
             <div className={styles.row3}>
               <h2>Skills</h2>
               <ul>
-                <li>html,css</li>
+                <li>html , css</li>
                 <li>JavaScript</li>
-                <li>React.js(Hooks)</li>
+                <li>React.JS(Hooks)</li>
                 <li>REST api</li>
                 <li>Git</li>
-                <li>Redux</li>
-                <li>Material UI</li>
-                <li>Graph QL</li>
+                {/* <li>Redux</li> */}
+                {/* <li>Material UI</li> */}
+                {/* <li>Graph QL</li> */}
               </ul>
             </div>
             <div className={styles.row4}>
               <h2>Projects</h2>
-
+              <ul>
+                <li> 
+                  Todo App - 
+                  <a target="_blank" href='https://todoapp-mostafa.netlify.app/'>https://todoapp-mostafa.netlify.app/</a></li>
+                <li> profile App - <a target="_blank" href='https://todoapp-mostafa.netlify.app/'>https://todoapp-mostafa.netlify.app/</a></li>
+              </ul>
+            </div>
+            <div className={styles.row2}>
+              <h2>Education</h2>
             </div>
           </div> 
           </div> 

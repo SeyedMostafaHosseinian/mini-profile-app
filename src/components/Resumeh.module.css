@@ -6,11 +6,11 @@
     padding-left: 110px;
 }
 .bodyPageContainer {
-    width:1048px;
+    width: 1048px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 600px;
+    margin-left: -18px;
   
 }
 .bodyPageContainer .header {
@@ -37,6 +37,7 @@
     height: 100%;
     flex-direction: column;
     padding-top:20px ;
+    padding-bottom: 40px;
 }
 .content img{ 
     width: 250px;
@@ -104,7 +105,7 @@
     font-weight: 400;
     margin: 3px 0;
 }
-.content .row2 ,.content .row3 {
+.content .row2 , .content .row3 , .content .row4 {
     width: 100%;
     margin-top: 40px;
     display: flex;
@@ -113,7 +114,8 @@
     justify-content: center;
     
 }
-.content .row2 h2 ,.content .row3 h2 {
+
+.content .row2 h2 ,.content .row3 h2 , .content .row4 h2 {
     color: #e42424;
     text-align: center;
     border-bottom: 2px solid #e42424;
@@ -126,13 +128,23 @@
 }
 .content .row3 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     flex-wrap: wrap;
     width: 100%;
     padding: 10px 18px;
-
 }
 .content .row3 ul li { 
     width: 30%;
     height: 30px;
+}
+.content .row4 ul { 
+    padding: 10px 18px;
+}
+.content .row4 ul li { 
+    height: 30px;
+    font-weight: bold;
+    width: 50%;
+}
+.content .row4 ul li a { 
+    margin-left: 20px;
 }
