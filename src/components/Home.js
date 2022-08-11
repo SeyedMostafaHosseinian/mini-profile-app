@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <div className={styles.home}>
-            { <Navbar title="home" />}
             <div className={styles.bodyPageContainer}>
                 <div className={styles.header}>
                     <h2>صفحه اصلی</h2>
@@ -21,7 +20,7 @@ const Home = () => {
                     <span> !سلام </span>
                     <h4>سید مصطفی حسینی هستم</h4>
                     <h5>front-end developer</h5>
-                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                    <p>علاقه مند به حوضه فرانت اند و   تقریبا یکسال است که  مشغول کار و در حال یادگیری مباحث فرانت اند هستم به پروفایل من خوش آمدید برای مشاهده رزومه روی اطلاعات بیشتر کلیک نمایید</p>
                     <div className={styles.buttons}>
                         <Link to='/call'> تماس با من</Link>
                         <Link to='/resumeh'> اطلاعات بیشتر</Link>
@@ -29,7 +28,7 @@ const Home = () => {
                     
                 </div>
             </div>
-            
+            { <Navbar title="home" />}
         </div>
     );
 };

@@ -1,12 +1,12 @@
 .Projects {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
     padding-top: 10px;
-    padding-left: 110px;
+    padding-left: 15px;
 }
 .bodyPageContainer {
-    width:1048px;
+    width:82%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -46,4 +46,64 @@
 .content a svg {
     width: 90px;
     height: 90px;
+}
+
+/*Responsive Styles*/
+
+@media (max-width:1200px) {
+
+}
+@media (max-width:992px) { 
+    .bodyPageContainer {
+        width: 75%;
+    }
+
+}
+@media (max-width:768px) { 
+    .bodyPageContainer .header {
+        height: 35px;
+    }
+    .bodyPageContainer .header h2 {
+        font-size: 14px;
+    }
+    .bodyPageContainer .header svg {
+        width: 20px;
+    }
+
+}
+@media (max-width:576px) { 
+    .bodyPageContainer {
+        width: 68%;
+    }
+    .content {
+        padding:10px 10px 0;
+    }
+}
+@media (max-width:460px) {
+    .content div {
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        display: flex;
+    }
+    .bodyPageContainer {
+        width: 65%;
+    }
+    .bodyPageContainer .header { 
+        height: 30px;
+        border-radius: 6px;
+    }
+    .bodyPageContainer .header h2 {
+        font-size: 12px;
+        margin-right: 3px;
+    }
+    .bodyPageContainer .header svg{
+        width: 16px;
+    }
+
+}
+@media (max-width:400px) { 
+    .bodyPageContainer {
+        width: 57%;
+    }
 }

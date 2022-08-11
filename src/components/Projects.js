@@ -12,10 +12,9 @@ import ProjectCard from './shared/ProjectCard';
 
 const Projects = () => {
     const Projects = useContext(ProfileContext).projects
-    console.log(Projects)
+
     return (
         <div className={styles.Projects}>
-            { <Navbar title="projects" /> }
             <div className={styles.bodyPageContainer}>
                 <div className={styles.header}>
                     <h2> پروژه ها</h2>
@@ -27,6 +26,8 @@ const Projects = () => {
                     {Projects.map(item => <ProjectCard key={item.id} data={item} />)}
                 </div>
             </div>
+            { <Navbar title="projects" /> }
+
         </div>
     );
 };

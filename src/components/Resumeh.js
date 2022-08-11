@@ -8,7 +8,6 @@ import styles from "./Resumeh.module.css";
 const Resumeh = () => {
     return (
         <div className={styles.resumeh}>
-            {<Navbar title={"resumeh"}/>}
           <div className={styles.bodyPageContainer}>
             <div className={styles.header}>
                     <h2> رزومه من</h2>
@@ -30,7 +29,7 @@ const Resumeh = () => {
                 <span>Mashhad .. Iran</span>
                 <span>+98 938 074 9885</span>
                 <a href='#' target="_blank">hossenianm21@gmail.com</a>
-                <span>Skype: .... .... :</span>
+                <span>Skype:live:.cid.a9be7c41ede3a0cc</span>
               </div>
             </div>
             <div className={styles.row2}>
@@ -56,7 +55,7 @@ const Resumeh = () => {
                 <li> 
                   Todo App - 
                   <a target="_blank" href='https://todoapp-mostafa.netlify.app/'>https://todoapp-mostafa.netlify.app/</a></li>
-                <li> profile App - <a target="_blank" href='https://todoapp-mostafa.netlify.app/'>https://todoapp-mostafa.netlify.app/</a></li>
+                <li> profile App - <a target="_blank" href='https://mini-profile-app.netlify.app/'>https://mini-profile-app.netlify.app/</a></li>
               </ul>
             </div>
             <div className={styles.row2}>
@@ -64,7 +63,7 @@ const Resumeh = () => {
             </div>
           </div> 
           </div> 
-            
+          {<Navbar title={"resumeh"}/>}
         </div>
     );
 };

@@ -1,17 +1,17 @@
 .home {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
     padding-top: 10px;
-    padding-left: 110px;
+    padding-left: 15px;
+    height: 100%;
 }
 .bodyPageContainer {
-    width:1048px;
+    width: 83%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 600px;
-  
+    height: 100%;
 }
 .bodyPageContainer .header {
     width: 100%;
@@ -33,10 +33,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 20px;
-    height: 90%;
+    margin-top: 5px;
+    height: 100%;
     flex-direction: column;
-    padding-top:20px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .content img{ 
     width: 250px;
@@ -57,13 +58,12 @@
     margin: 10px 0;
 }
 .content p {
-    width: 638px;
     text-align: center;
     color: #757575;
     font-weight: 100;
+    padding: 4px 100px;
 }
 .buttons {
-    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,4 +80,101 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/** Rsponsive Styles **/
+
+@media (max-width:1200px) {
+    .content img{ 
+        width: 220px;
+        height: 220px;
+    }
+}
+@media (max-width:992px) { 
+    .bodyPageContainer {
+        width: 75%;
+    }
+    .content img{ 
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (max-width:768px) { 
+    .bodyPageContainer .header {
+        height: 35px;
+    }
+    .bodyPageContainer .header h2 {
+        font-size: 14px;
+    }
+    .bodyPageContainer .header svg {
+        width: 20px;
+    }
+    .buttons a { 
+        font-size: 12px;
+    }
+    .content img{ 
+        width: 180px;
+        height: 180px;
+    }
+    .content h4 {
+        font-size: 16px;
+    }
+    .content p {
+        font-size: 12px;
+    }
+    .buttons a { 
+        width: 100px;
+        height: 30px;
+    }
+}
+@media (max-width:576px) { 
+    .bodyPageContainer {
+        width: 68%;
+    }
+    .content img{ 
+        width: 150px;
+        height: 150px;
+    }
+    .content p{ 
+        padding: 5px 20px;
+    }
+
+}
+@media (max-width:460px) {
+    .content img{ 
+        width: 100px;
+        height: 100px;
+    }
+    .bodyPageContainer {
+        width: 65%;
+
+    }
+    .home {
+        padding-left: 8px;
+    }  
+    .bodyPageContainer .header { 
+        height: 30px;
+        border-radius: 6px;
+    }
+    .bodyPageContainer .header h2 {
+        font-size: 12px;
+        margin-right: 3px;
+    }
+    .bodyPageContainer .header svg{
+        width: 16px;
+    }
+}
+@media (max-width:400px) { 
+    .bodyPageContainer {
+        width: 57%;
+    }
+    .buttons a { 
+        width: 80px;
+        height: 27px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .content h4 {
+        font-size: 12px;
+    }
+
 }

@@ -7,7 +7,6 @@ import styles from "./Call.module.css";
 const Call = () => {
     return (
         <div className={styles.Projects}>
-            { <Navbar title="call" /> }
             <div className={styles.bodyPageContainer}>
                 <div className={styles.header}>
                     <h2> تماس با من </h2>
@@ -32,6 +31,7 @@ const Call = () => {
                     </div>
                 </div>
             </div>
+            { <Navbar title="call" /> }
         </div>
     );
 };

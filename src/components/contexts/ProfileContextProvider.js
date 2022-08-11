@@ -9,7 +9,6 @@ export const ProfileContext = createContext()
 const ProfileContextProvider = ({children}) => {
     const [Profile,setProfile] = useState({
         projects:[
-
             { 
                 id:1 , 
                 image:todoImg, 
@@ -23,8 +22,8 @@ const ProfileContextProvider = ({children}) => {
                 image:ProfileImg , 
                 title:"profile app" 
                 ,description:"a mini project" , 
-                repository: "https://github.com/SeyedMostafaHosseinian/to-do-app.git" , 
-                link:"https://todoapp-mostafa.netlify.app/"   
+                repository: "https://github.com/SeyedMostafaHosseinian/mini-profile-app.git" , 
+                link:"https://mini-profile-app.netlify.app/"   
             },
         ]
     })
